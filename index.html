@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Digital Clock</h2>
+        <div class="clock-container">
+            <div class="time-container">
+                <div id="hour">00</div>
+                <label>Hour</label>
+            </div>
+            <span>:</span>
+            <div class="time-container">
+                <div id="minutes">00</div>
+                <label for="">Minute</label>
+            </div>
+            <span>:</span>
+            <div class="time-container">
+                <div id="seconds">00</div>
+                <label for="">Second</label>
+            </div>
+            <span style="font-size:2rem; align-self: flex-end; margin-bottom: 20px;" id="session">AM</span>
+            
+        </div>
+
+        <div>
+            <p id="day-date-container"></p>
+        </div>
+        <!-- <div class="clock-container">
+        <div class="time-container">
+            <div >23</div>
+            <label>Hour</label>
+        </div>
+        <div class="time-container">
+            <div >23</div>
+            <label>Hour</label>
+        </div>
+        </div> -->
+        <div class="buttons">
+            <button id="timer">Set Timer</button>
+            <button id="alarm">Set Alarm</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
